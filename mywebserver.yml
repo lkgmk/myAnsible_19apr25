@@ -5,4 +5,4 @@
   - name: install apache2 server (apt_get install apache2)
     apt:
       name: apache2
-      state: absent # if not mentioned then default is present
+      state: present # if not mentioned then default is present
