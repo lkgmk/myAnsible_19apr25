@@ -6,8 +6,10 @@
     apt:
       name: apache2
       state: present # if not mentioned then default is present
+    when: ansible_os_family=="Debian"
   
   - name: I want to start apache2 webserver (service apache2 start)
     service:
       name: apache2
       state: started
+    when: ansible_os_family=="Debian"
