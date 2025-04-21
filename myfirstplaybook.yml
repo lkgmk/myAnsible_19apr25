@@ -1,0 +1,18 @@
+---
+# # single task
+# - hosts: all
+#   tasks: task01
+
+# multiple tasks
+- hosts: all
+  become: yes
+  tasks:
+  - name: I want to install git (apt-get install git)
+    apt:
+      name: git
+      state: present
+
+  - name: i want to install tree (apt-get install tree)
+    apt:
+      name: tree
+      state: present

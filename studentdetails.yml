@@ -1,0 +1,39 @@
+---
+# - myStudents: 
+#   - anil
+#   - sunil
+#   - vinil
+# - myStudents: 
+#   - name: anil
+#     phone: 9922334411
+#     address: pune
+  
+#   - name: sunil
+#     phone: 9922334422
+#     address: hyd
+  
+#   - name: vinil
+#     phone: 9922334433
+#     address: mumbai
+- myStudents: 
+  - name: anil
+    phone: 9922334411
+    address: 
+       doorno: 101
+       streetno: 1
+       pincode: 300011
+  
+  - name: sunil
+    phone: 9922334422
+    address:
+       doorno: 102
+       streetno: 2
+       pincode: 300022
+
+  
+  - name: vinil
+    phone: 9922334433
+    address:
+       doorno: 103
+       streetno: 3
+       pincode: 300033
