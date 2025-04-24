@@ -1,0 +1,15 @@
+---
+- hosts: allnodeservers
+  become: yes
+  tasks:
+  - name: install java on ubuntu ()
+    apt:
+      name: "{{myunbuntujavapackage}}"
+      state: present
+    when: ansible_os_family=="Debian"
+  
+  - name: install java on redhat
+    dnf:
+      name: "{{myredhatjavapackage}}"
+      state: present
+    when: ansible_os_family=="Redhat"

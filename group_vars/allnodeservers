@@ -1,3 +1,5 @@
 ---
 myunbuntuwebpackage: apache2
 myredhatwebpackage: httpd
+myunbuntujavapackage: openjdk-17-jdk
+myredhatjavapackage: java-17-amazon-corretto
