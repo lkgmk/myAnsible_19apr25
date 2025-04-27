@@ -1,5 +1,5 @@
 ---
-- hosts: redhatserver
+- hosts: allnodeservers
   become: yes
   tasks:
   - name: install apache2 server (apt_get install apache2)
