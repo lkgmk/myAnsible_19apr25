@@ -1,5 +1,5 @@
 ---
-- hosts: allnodeservers
+- hosts: redhatserver
   become: yes
   tasks:
   - name: install java on ubuntu ()
