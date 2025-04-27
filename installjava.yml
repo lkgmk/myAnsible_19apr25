@@ -5,11 +5,11 @@
   - name: install java on ubuntu ()
     apt:
       name: "{{myunbuntujavapackage}}"
-      state: present
+      state: absent
     when: ansible_os_family=="Debian"
   
   - name: install java on redhat
     dnf:
       name: "{{myredhatjavapackage}}"
-      state: present
+      state: absent
     when: ansible_os_family=="Redhat"
