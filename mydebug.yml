@@ -19,7 +19,5 @@
   - name: i want to install tree
     apt:
       name: tree
-      apt:
-        name: tree
-        state: present
+      state: present
     when: myresult.stderr==""
