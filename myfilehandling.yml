@@ -5,6 +5,6 @@
   - include_tasks: createfolder.yml
   - include_tasks: myfile.yml
   - name: i want to install apache2
-    apt: 
+    apt:
       name: apache2
       state: present
