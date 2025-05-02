@@ -1,5 +1,5 @@
 ---
 - name: i want to create folder
   file:
-    path: /home/laksh/fildhandling
+    path: /home/laksh/filehandling
     state: directory
