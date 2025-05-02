@@ -19,3 +19,8 @@
       url: https://updates.jenkins.io/download/war/2.507/jenkins.war
       dest: /home/laksh/filehandling/jenkins.war
       force_basic_auth: yes
+
+  - name: Copy index file into node side
+    template:
+      src: myindex.j2
+      dest: /var/www/html/index.html
