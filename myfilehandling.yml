@@ -30,4 +30,4 @@
   - name: startwebserver
     service:
       name: apache2
-      state: started
+      state: pestarted
