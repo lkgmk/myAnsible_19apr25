@@ -1,0 +1,13 @@
+---
+- name: create tomcat group (sudo groupadd tomcat)
+  group:
+    name: tomcat
+    state: present
+
+- name: create tomcat user (sudo useradd -s(shell) /bin/false -g(group) tomcat -d(home directory) /opt/tomcat tomcat)
+  user:
+    name: tomcat
+    shell: /bin/false
+    group: tomcat
+    home: /opt/tomcat
+    state: present
