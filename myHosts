@@ -14,7 +14,8 @@
 172.31.90.302
 
 [myappservers]
-172-31-87-55
+172.31.90.303
+172.31.90.304
 
 # [allnodeservers:vars]
 # veriable scope is upto above "allnodeservers" group only 

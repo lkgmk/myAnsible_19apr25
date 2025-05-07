@@ -1,5 +1,0 @@
----
-- hosts: myappservers
-  become: yes
-  roles:
-  - mytomcatrole
